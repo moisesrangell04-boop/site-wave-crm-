@@ -89,15 +89,37 @@ document.addEventListener('DOMContentLoaded', () => {
   const formSuccess = document.getElementById('formSuccess');
 
   if (openBtn && modal) {
-    // Open modal
-    openBtn.addEventListener('click', () => {
+    // Open modal function
+    const openModal = () => {
       modal.classList.add('open');
       document.body.style.overflow = 'hidden';
       // Reset form state
       leadForm.style.display = '';
       formSuccess.classList.remove('show');
       leadForm.reset();
-    });
+      // Mark as shown in session storage
+      sessionStorage.setItem('wave_popup_shown', 'true');
+    };
+
+    // Manual trigger
+    openBtn.addEventListener('click', openModal);
+
+    // Auto-popup on scroll
+    let scrollTimerTriggered = false;
+    window.addEventListener('scroll', () => {
+      if (!scrollTimerTriggered && window.scrollY > 50) {
+        scrollTimerTriggered = true;
+        // Only trigger if not shown before in this session
+        if (!sessionStorage.getItem('wave_popup_shown')) {
+          setTimeout(() => {
+            // Check again if shown or already open
+            if (!sessionStorage.getItem('wave_popup_shown') && !modal.classList.contains('open')) {
+              openModal();
+            }
+          }, 3000);
+        }
+      }
+    }, { passive: true });
 
     // Close modal
     const closeModal = () => {
