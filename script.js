@@ -104,6 +104,12 @@ document.addEventListener('DOMContentLoaded', () => {
     // Manual trigger
     openBtn.addEventListener('click', openModal);
 
+    // Floating Button trigger
+    const floatingBtn = document.getElementById('floatingBtn');
+    if (floatingBtn) {
+      floatingBtn.addEventListener('click', openModal);
+    }
+
     // Auto-popup on scroll
     let scrollTimerTriggered = false;
     window.addEventListener('scroll', () => {
