@@ -202,6 +202,10 @@ ul {
     padding: 8px 0;
 }
 
+.navbar.shadow {
+    box-shadow: var(--shadow-sm);
+}
+
 .nav-container {
     display: flex;
     align-items: center;
