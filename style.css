@@ -142,8 +142,24 @@ ul {
 }
 
 .btn-nav {
-    padding: 8px 22px;
-    font-size: .875rem;
+    background-color: var(--blue-600);
+    color: var(--white) !important;
+    border: 1px solid var(--blue-600);
+    padding: 10px 24px;
+    font-size: 0.9rem;
+    border-radius: 50px;
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    transition: var(--transition);
+}
+
+.btn-nav:hover {
+    background-color: var(--blue-700);
+    border-color: var(--blue-700);
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(30, 58, 110, 0.25);
+    color: var(--white) !important;
 }
 
 .gradient-text {
