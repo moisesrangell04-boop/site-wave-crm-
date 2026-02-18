@@ -216,13 +216,11 @@ ul {
 .logo-img {
     height: 40px;
     width: auto;
-    border-radius: 6px;
     transition: var(--transition);
 }
 
 .logo-img-footer {
     height: 36px;
-    border-radius: 6px;
 }
 
 .nav-links {
