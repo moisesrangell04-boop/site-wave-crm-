@@ -1,0 +1,6 @@
+# Arquivos do sistema
+.DS_Store
+Thumbs.db
+
+# Arquivo de referência (não faz parte do site)
+google-apps-script.js
