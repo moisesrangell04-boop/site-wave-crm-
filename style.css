@@ -535,14 +535,22 @@ ul {
 }
 
 .dor-grid {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 60px;
+    display: flex;
     align-items: center;
+    justify-content: space-between;
+    gap: 40px;
 }
 
 .dor-text-content {
+    flex: 1;
     text-align: left;
+    min-width: 300px;
+}
+
+.dor-image-content {
+    flex: 1;
+    display: flex;
+    justify-content: center;
 }
 
 .dor-grid h2 {
@@ -587,13 +595,18 @@ ul {
 
 @media (max-width: 900px) {
     .dor-grid {
-        grid-template-columns: 1fr;
+        flex-direction: column;
         text-align: center;
         gap: 40px;
     }
 
     .dor-text-content {
         text-align: center;
+        width: 100%;
+    }
+
+    .dor-image-content {
+        width: 100%;
     }
 
     .dor-highlight {
