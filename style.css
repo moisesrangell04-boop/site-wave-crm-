@@ -190,6 +190,8 @@ ul {
     width: 100%;
     z-index: 1000;
     padding: 12px 0;
+    background: rgba(255, 255, 255, .97);
+    backdrop-filter: blur(14px);
     transition: var(--transition);
 }
 
@@ -232,7 +234,7 @@ ul {
 .nav-links a {
     font-size: .88rem;
     font-weight: 500;
-    color: rgba(255, 255, 255, .8);
+    color: var(--gray-600);
     transition: var(--transition);
     position: relative;
 }
@@ -244,12 +246,12 @@ ul {
     left: 0;
     width: 0;
     height: 2px;
-    background: var(--blue-300);
+    background: var(--blue-500);
     transition: var(--transition);
 }
 
 .nav-links a:not(.btn):hover {
-    color: var(--white);
+    color: var(--blue-500);
 }
 
 .nav-links a:not(.btn):hover::after {
@@ -282,7 +284,7 @@ ul {
     display: block;
     width: 24px;
     height: 2px;
-    background: var(--white);
+    background: var(--blue-900);
     border-radius: 2px;
     transition: var(--transition);
 }
