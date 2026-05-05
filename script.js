@@ -172,6 +172,7 @@ document.addEventListener('DOMContentLoaded', () => {
         email: document.getElementById('leadEmail').value.trim(),
         telefone: document.getElementById('leadTelefone').value.trim(),
         nicho: document.getElementById('leadNicho').value.trim(),
+        servico: document.getElementById('leadServico').value,
         faturamento: document.getElementById('leadFaturamento').value,
         data: new Date().toLocaleString('pt-BR'),
       };
@@ -250,9 +251,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
       // BOM for Excel UTF-8 recognition
       const BOM = '\uFEFF';
-      const header = 'Nome;Email;Telefone;Nicho;Faturamento;Data\n';
+      const header = 'Nome;Email;Telefone;Nicho;Servico;Faturamento;Data\n';
       const rows = leads.map(l =>
-        `${l.nome};${l.email};${l.telefone};${l.nicho};${l.faturamento};${l.data}`
+        `${l.nome};${l.email};${l.telefone};${l.nicho};${l.servico || ''};${l.faturamento};${l.data}`
       ).join('\n');
 
       const csv = BOM + header + rows;
@@ -261,7 +262,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
       const a = document.createElement('a');
       a.href = url;
-      a.download = `leads-wave-crm-${new Date().toISOString().slice(0, 10)}.csv`;
+      a.download = `leads-wave-digital-${new Date().toISOString().slice(0, 10)}.csv`;
       document.body.appendChild(a);
       a.click();
       document.body.removeChild(a);
