@@ -306,7 +306,11 @@ ul {
 .hamburger {
     display: none;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     gap: 5px;
+    min-width: 44px;
+    min-height: 44px;
     background: none;
     border: none;
     cursor: pointer;
@@ -1392,10 +1396,20 @@ ul {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 1fr 1fr 1fr;
     gap: 36px;
     padding-bottom: 36px;
     border-bottom: 1px solid var(--gray-700);
+}
+
+/* PAGE HERO — internal pages (sobre.html, cases.html) */
+.page-hero {
+    padding: 140px 0 40px;
+    background: var(--gray-50);
+}
+
+.page-hero .section-header {
+    margin-bottom: 0;
 }
 
 .footer-brand .logo {
@@ -1417,7 +1431,8 @@ ul {
     margin-bottom: 14px;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-links span {
     display: block;
     font-size: .88rem;
     color: var(--gray-500);

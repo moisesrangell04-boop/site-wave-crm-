@@ -1,0 +1,839 @@
+{
+  "desktop_1440": {
+    "viewport_meta": "width=device-width, initial-scale=1, maximum-scale=1",
+    "window_inner_width": 1440,
+    "document_scroll_width": 1440,
+    "body_scroll_width": 1440,
+    "has_horizontal_scroll": false,
+    "body_computed_width": "1440px",
+    "html_computed_width": "1440px",
+    "overflowing_elements": [],
+    "h1_text": "Somos a Wave Digital",
+    "h1_box": {
+      "x": 135,
+      "y": 494,
+      "width": 1170,
+      "height": 30
+    },
+    "h1_in_viewport": true,
+    "nav_elements": [
+      {
+        "tag": "NAV",
+        "cls": "dark-nav navbar-style1",
+        "width": 1440,
+        "display": "block",
+        "visible": true
+      },
+      {
+        "tag": "UL",
+        "cls": "nav uppercase font-primary",
+        "width": 628,
+        "display": "block",
+        "visible": true
+      }
+    ],
+    "hamburger_candidates": [
+      {
+        "sel": "[class*=\"mobile-nav\"]",
+        "width": 0,
+        "height": 0,
+        "visible": false
+      }
+    ],
+    "font_samples": [
+      {
+        "tag": "body",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "p",
+        "fontSize": "15px",
+        "lineHeight": "21.4286px"
+      },
+      {
+        "tag": "a",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "li",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "h1",
+        "fontSize": "22px",
+        "lineHeight": "30px"
+      },
+      {
+        "tag": "h2",
+        "fontSize": "17px",
+        "lineHeight": "22px"
+      },
+      {
+        "tag": "h3",
+        "fontSize": "30px",
+        "lineHeight": "33px"
+      }
+    ],
+    "tap_targets_above_fold": [
+      {
+        "text": "",
+        "width": 83,
+        "height": 16
+      },
+      {
+        "text": "HOME",
+        "width": 73,
+        "height": 75
+      },
+      {
+        "text": "COMO FUNCIONA",
+        "width": 139,
+        "height": 75
+      },
+      {
+        "text": "BENEF\u00cdCIOS",
+        "width": 108,
+        "height": 75
+      },
+      {
+        "text": "QUALIFICA\u00c7\u00c3O",
+        "width": 126,
+        "height": 75
+      },
+      {
+        "text": "PACOTES",
+        "width": 91,
+        "height": 75
+      },
+      {
+        "text": "CONTATO",
+        "width": 92,
+        "height": 75
+      },
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "SAIBA MAIS",
+        "width": 121,
+        "height": 50
+      },
+      {
+        "text": "CONTATO",
+        "width": 107,
+        "height": 50
+      }
+    ],
+    "small_tap_targets_count": 2,
+    "small_tap_targets_sample": [
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "console_errors": [
+      "Access to XMLHttpRequest at 'http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc' from origin 'http://wavedigital.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failed_requests": [
+      "http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc"
+    ],
+    "title": "Wave Digital"
+  },
+  "desktop_1920": {
+    "viewport_meta": "width=device-width, initial-scale=1, maximum-scale=1",
+    "window_inner_width": 1920,
+    "document_scroll_width": 1920,
+    "body_scroll_width": 1920,
+    "has_horizontal_scroll": false,
+    "body_computed_width": "1920px",
+    "html_computed_width": "1920px",
+    "overflowing_elements": [],
+    "h1_text": "Somos a Wave Digital",
+    "h1_box": {
+      "x": 375,
+      "y": 584,
+      "width": 1170,
+      "height": 30
+    },
+    "h1_in_viewport": true,
+    "nav_elements": [
+      {
+        "tag": "NAV",
+        "cls": "dark-nav navbar-style1",
+        "width": 1920,
+        "display": "block",
+        "visible": true
+      },
+      {
+        "tag": "UL",
+        "cls": "nav uppercase font-primary",
+        "width": 628,
+        "display": "block",
+        "visible": true
+      }
+    ],
+    "hamburger_candidates": [
+      {
+        "sel": "[class*=\"mobile-nav\"]",
+        "width": 0,
+        "height": 0,
+        "visible": false
+      }
+    ],
+    "font_samples": [
+      {
+        "tag": "body",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "p",
+        "fontSize": "15px",
+        "lineHeight": "21.4286px"
+      },
+      {
+        "tag": "a",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "li",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "h1",
+        "fontSize": "22px",
+        "lineHeight": "30px"
+      },
+      {
+        "tag": "h2",
+        "fontSize": "17px",
+        "lineHeight": "22px"
+      },
+      {
+        "tag": "h3",
+        "fontSize": "30px",
+        "lineHeight": "33px"
+      }
+    ],
+    "tap_targets_above_fold": [
+      {
+        "text": "",
+        "width": 83,
+        "height": 16
+      },
+      {
+        "text": "HOME",
+        "width": 73,
+        "height": 75
+      },
+      {
+        "text": "COMO FUNCIONA",
+        "width": 139,
+        "height": 75
+      },
+      {
+        "text": "BENEF\u00cdCIOS",
+        "width": 108,
+        "height": 75
+      },
+      {
+        "text": "QUALIFICA\u00c7\u00c3O",
+        "width": 126,
+        "height": 75
+      },
+      {
+        "text": "PACOTES",
+        "width": 91,
+        "height": 75
+      },
+      {
+        "text": "CONTATO",
+        "width": 92,
+        "height": 75
+      },
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "SAIBA MAIS",
+        "width": 121,
+        "height": 50
+      },
+      {
+        "text": "CONTATO",
+        "width": 107,
+        "height": 50
+      }
+    ],
+    "small_tap_targets_count": 2,
+    "small_tap_targets_sample": [
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "console_errors": [
+      "Access to XMLHttpRequest at 'http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc' from origin 'http://wavedigital.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failed_requests": [
+      "http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc"
+    ],
+    "title": "Wave Digital"
+  },
+  "laptop_1366": {
+    "viewport_meta": "width=device-width, initial-scale=1, maximum-scale=1",
+    "window_inner_width": 1366,
+    "document_scroll_width": 1366,
+    "body_scroll_width": 1366,
+    "has_horizontal_scroll": false,
+    "body_computed_width": "1366px",
+    "html_computed_width": "1366px",
+    "overflowing_elements": [],
+    "h1_text": "Somos a Wave Digital",
+    "h1_box": {
+      "x": 98,
+      "y": 428,
+      "width": 1170,
+      "height": 30
+    },
+    "h1_in_viewport": true,
+    "nav_elements": [
+      {
+        "tag": "NAV",
+        "cls": "dark-nav navbar-style1",
+        "width": 1366,
+        "display": "block",
+        "visible": true
+      },
+      {
+        "tag": "UL",
+        "cls": "nav uppercase font-primary",
+        "width": 628,
+        "display": "block",
+        "visible": true
+      }
+    ],
+    "hamburger_candidates": [
+      {
+        "sel": "[class*=\"mobile-nav\"]",
+        "width": 0,
+        "height": 0,
+        "visible": false
+      }
+    ],
+    "font_samples": [
+      {
+        "tag": "body",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "p",
+        "fontSize": "15px",
+        "lineHeight": "21.4286px"
+      },
+      {
+        "tag": "a",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "li",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "h1",
+        "fontSize": "22px",
+        "lineHeight": "30px"
+      },
+      {
+        "tag": "h2",
+        "fontSize": "17px",
+        "lineHeight": "22px"
+      },
+      {
+        "tag": "h3",
+        "fontSize": "30px",
+        "lineHeight": "33px"
+      }
+    ],
+    "tap_targets_above_fold": [
+      {
+        "text": "",
+        "width": 83,
+        "height": 16
+      },
+      {
+        "text": "HOME",
+        "width": 73,
+        "height": 75
+      },
+      {
+        "text": "COMO FUNCIONA",
+        "width": 139,
+        "height": 75
+      },
+      {
+        "text": "BENEF\u00cdCIOS",
+        "width": 108,
+        "height": 75
+      },
+      {
+        "text": "QUALIFICA\u00c7\u00c3O",
+        "width": 126,
+        "height": 75
+      },
+      {
+        "text": "PACOTES",
+        "width": 91,
+        "height": 75
+      },
+      {
+        "text": "CONTATO",
+        "width": 92,
+        "height": 75
+      },
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "SAIBA MAIS",
+        "width": 121,
+        "height": 50
+      },
+      {
+        "text": "CONTATO",
+        "width": 107,
+        "height": 50
+      }
+    ],
+    "small_tap_targets_count": 2,
+    "small_tap_targets_sample": [
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "console_errors": [
+      "Access to XMLHttpRequest at 'http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc' from origin 'http://wavedigital.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failed_requests": [
+      "http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc"
+    ],
+    "title": "Wave Digital"
+  },
+  "tablet_768": {
+    "viewport_meta": "width=device-width, initial-scale=1, maximum-scale=1",
+    "window_inner_width": 768,
+    "document_scroll_width": 768,
+    "body_scroll_width": 768,
+    "has_horizontal_scroll": false,
+    "body_computed_width": "768px",
+    "html_computed_width": "768px",
+    "overflowing_elements": [],
+    "h1_text": "Somos a Wave Digital",
+    "h1_box": {
+      "x": 0,
+      "y": 536,
+      "width": 768,
+      "height": 30
+    },
+    "h1_in_viewport": true,
+    "nav_elements": [
+      {
+        "tag": "NAV",
+        "cls": "dark-nav navbar-style1",
+        "width": 768,
+        "display": "block",
+        "visible": true
+      },
+      {
+        "tag": "UL",
+        "cls": "nav uppercase font-primary",
+        "width": 0,
+        "display": "block",
+        "visible": false
+      }
+    ],
+    "hamburger_candidates": [
+      {
+        "sel": "[class*=\"mobile-nav\"]",
+        "width": 40,
+        "height": 40,
+        "visible": true
+      }
+    ],
+    "font_samples": [
+      {
+        "tag": "body",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "p",
+        "fontSize": "15px",
+        "lineHeight": "21.4286px"
+      },
+      {
+        "tag": "a",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "li",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "h1",
+        "fontSize": "18px",
+        "lineHeight": "30px"
+      },
+      {
+        "tag": "h2",
+        "fontSize": "17px",
+        "lineHeight": "22px"
+      },
+      {
+        "tag": "h3",
+        "fontSize": "30px",
+        "lineHeight": "33px"
+      }
+    ],
+    "tap_targets_above_fold": [
+      {
+        "text": "",
+        "width": 83,
+        "height": 16
+      },
+      {
+        "text": "",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "small_tap_targets_count": 2,
+    "small_tap_targets_sample": [
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "console_errors": [
+      "Access to XMLHttpRequest at 'http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc' from origin 'http://wavedigital.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failed_requests": [
+      "http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc"
+    ],
+    "title": "Wave Digital"
+  },
+  "mobile_390": {
+    "viewport_meta": "width=device-width, initial-scale=1, maximum-scale=1",
+    "window_inner_width": 390,
+    "document_scroll_width": 390,
+    "body_scroll_width": 390,
+    "has_horizontal_scroll": false,
+    "body_computed_width": "390px",
+    "html_computed_width": "390px",
+    "overflowing_elements": [],
+    "h1_text": "Somos a Wave Digital",
+    "h1_box": {
+      "x": 0,
+      "y": 431.5,
+      "width": 390,
+      "height": 11
+    },
+    "h1_in_viewport": true,
+    "nav_elements": [
+      {
+        "tag": "NAV",
+        "cls": "dark-nav navbar-style1",
+        "width": 390,
+        "display": "block",
+        "visible": true
+      },
+      {
+        "tag": "UL",
+        "cls": "nav uppercase font-primary",
+        "width": 0,
+        "display": "block",
+        "visible": false
+      }
+    ],
+    "hamburger_candidates": [
+      {
+        "sel": "[class*=\"mobile-nav\"]",
+        "width": 40,
+        "height": 40,
+        "visible": true
+      }
+    ],
+    "font_samples": [
+      {
+        "tag": "body",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "p",
+        "fontSize": "15px",
+        "lineHeight": "21.4286px"
+      },
+      {
+        "tag": "a",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "li",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "h1",
+        "fontSize": "11px",
+        "lineHeight": "11px"
+      },
+      {
+        "tag": "h2",
+        "fontSize": "17px",
+        "lineHeight": "22px"
+      },
+      {
+        "tag": "h3",
+        "fontSize": "30px",
+        "lineHeight": "33px"
+      }
+    ],
+    "tap_targets_above_fold": [
+      {
+        "text": "",
+        "width": 83,
+        "height": 16
+      },
+      {
+        "text": "",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "small_tap_targets_count": 2,
+    "small_tap_targets_sample": [
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "console_errors": [
+      "Access to XMLHttpRequest at 'http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc' from origin 'http://wavedigital.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failed_requests": [
+      "http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc"
+    ],
+    "title": "Wave Digital"
+  },
+  "mobile_375": {
+    "viewport_meta": "width=device-width, initial-scale=1, maximum-scale=1",
+    "window_inner_width": 375,
+    "document_scroll_width": 375,
+    "body_scroll_width": 375,
+    "has_horizontal_scroll": false,
+    "body_computed_width": "375px",
+    "html_computed_width": "375px",
+    "overflowing_elements": [],
+    "h1_text": "Somos a Wave Digital",
+    "h1_box": {
+      "x": 0,
+      "y": 415.5,
+      "width": 375,
+      "height": 11
+    },
+    "h1_in_viewport": true,
+    "nav_elements": [
+      {
+        "tag": "NAV",
+        "cls": "dark-nav navbar-style1",
+        "width": 375,
+        "display": "block",
+        "visible": true
+      },
+      {
+        "tag": "UL",
+        "cls": "nav uppercase font-primary",
+        "width": 0,
+        "display": "block",
+        "visible": false
+      }
+    ],
+    "hamburger_candidates": [
+      {
+        "sel": "[class*=\"mobile-nav\"]",
+        "width": 40,
+        "height": 40,
+        "visible": true
+      }
+    ],
+    "font_samples": [
+      {
+        "tag": "body",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "p",
+        "fontSize": "15px",
+        "lineHeight": "21.4286px"
+      },
+      {
+        "tag": "a",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "li",
+        "fontSize": "14px",
+        "lineHeight": "20px"
+      },
+      {
+        "tag": "h1",
+        "fontSize": "11px",
+        "lineHeight": "11px"
+      },
+      {
+        "tag": "h2",
+        "fontSize": "17px",
+        "lineHeight": "22px"
+      },
+      {
+        "tag": "h3",
+        "fontSize": "30px",
+        "lineHeight": "33px"
+      }
+    ],
+    "tap_targets_above_fold": [
+      {
+        "text": "",
+        "width": 83,
+        "height": 16
+      },
+      {
+        "text": "",
+        "width": 40,
+        "height": 40
+      },
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "small_tap_targets_count": 2,
+    "small_tap_targets_sample": [
+      {
+        "text": "Previous",
+        "width": 38,
+        "height": 38
+      },
+      {
+        "text": "Next",
+        "width": 38,
+        "height": 38
+      }
+    ],
+    "console_errors": [
+      "Access to XMLHttpRequest at 'http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc' from origin 'http://wavedigital.com.br' has been blocked by CORS policy: No 'Access-Control-Allow-Origin' header is present on the requested resource.",
+      "Failed to load resource: net::ERR_FAILED"
+    ],
+    "failed_requests": [
+      "http://gdata.youtube.com/feeds/api/videos/rQNu6-ERezU?v=2&alt=jsonc"
+    ],
+    "title": "Wave Digital"
+  }
+}

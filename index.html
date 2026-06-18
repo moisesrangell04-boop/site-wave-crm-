@@ -18,15 +18,18 @@
     content="agência digital Campos dos Goytacazes, desenvolvimento de sites Campos dos Goytacazes, CRM Campos dos Goytacazes, automação empresarial Norte Fluminense, landing page Rio de Janeiro, sistema para empresas Campos dos Goytacazes, transformação digital RJ, criação de sites Norte Fluminense" />
 
   <!-- Canonical -->
-  <link rel="canonical" href="https://www.wavedigital.com.br/" />
+  <link rel="canonical" href="https://wavedigital.com.br/" />
+
+  <!-- Referrer policy -->
+  <meta name="referrer" content="strict-origin-when-cross-origin" />
 
   <!-- Open Graph -->
   <meta property="og:type" content="website" />
   <meta property="og:title" content="WAVE Digital | Soluções Digitais Completas em Campos dos Goytacazes" />
   <meta property="og:description"
     content="CRM, automações, sistemas, sites e landing pages para empresas do Norte Fluminense. Sua empresa completa no digital, de uma vez." />
-  <meta property="og:url" content="https://www.wavedigital.com.br/" />
-  <meta property="og:image" content="https://www.wavedigital.com.br/logo-wave.png" />
+  <meta property="og:url" content="https://wavedigital.com.br/" />
+  <meta property="og:image" content="https://wavedigital.com.br/logo-wave.png" />
   <meta property="og:locale" content="pt_BR" />
   <meta property="og:site_name" content="WAVE Digital" />
 
@@ -42,41 +45,59 @@
   <meta name="geo.position" content="-21.7549;-41.3247" />
   <meta name="ICBM" content="-21.7549, -41.3247" />
 
-  <!-- Schema.org LocalBusiness -->
+  <!-- Schema.org ProfessionalService + WebSite + WebPage -->
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "LocalBusiness",
-    "name": "WAVE Digital",
-    "description": "Agência de soluções digitais em Campos dos Goytacazes, RJ. CRM, automações, sistemas sob medida, sites e landing pages para empresas do Norte Fluminense.",
-    "url": "https://www.wavedigital.com.br",
-    "telephone": "+5541991164890",
-    "email": "wavecrm.business@gmail.com",
-    "address": {
-      "@type": "PostalAddress",
-      "addressLocality": "Campos dos Goytacazes",
-      "addressRegion": "RJ",
-      "addressCountry": "BR"
-    },
-    "areaServed": [
-      {"@type": "City", "name": "Campos dos Goytacazes"},
-      {"@type": "City", "name": "Macaé"},
-      {"@type": "City", "name": "São João da Barra"},
-      {"@type": "State", "name": "Rio de Janeiro"}
-    ],
-    "hasOfferCatalog": {
-      "@type": "OfferCatalog",
-      "name": "Soluções Digitais",
-      "itemListElement": [
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "CRM Próprio"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Automações de Processos"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sistemas Sob Medida"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Criação de Sites Profissionais"}},
-        {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landing Pages de Alta Conversão"}}
-      ]
-    },
-    "sameAs": [
-      "https://www.instagram.com/wave.crm/"
+    "@graph": [
+      {
+        "@type": "ProfessionalService",
+        "@id": "https://wavedigital.com.br/#organization",
+        "name": "WAVE Digital",
+        "description": "Agência de soluções digitais em Campos dos Goytacazes, RJ. CRM, automações, sistemas sob medida, sites e landing pages para empresas do Norte Fluminense.",
+        "url": "https://wavedigital.com.br/",
+        "logo": "https://wavedigital.com.br/logo-wave.png",
+        "image": "https://wavedigital.com.br/logo-wave.png",
+        "telephone": "+5541991164890",
+        "email": "wavecrm.business@gmail.com",
+        "areaServed": [
+          {"@type": "City", "name": "Campos dos Goytacazes"},
+          {"@type": "City", "name": "Macaé"},
+          {"@type": "City", "name": "São João da Barra"},
+          {"@type": "State", "name": "Rio de Janeiro"}
+        ],
+        "hasOfferCatalog": {
+          "@type": "OfferCatalog",
+          "name": "Soluções Digitais",
+          "itemListElement": [
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "CRM Próprio"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Automações de Processos"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Sistemas Sob Medida"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Criação de Sites Profissionais"}},
+            {"@type": "Offer", "itemOffered": {"@type": "Service", "name": "Landing Pages de Alta Conversão"}}
+          ]
+        },
+        "sameAs": [
+          "https://www.instagram.com/wave.crm/"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://wavedigital.com.br/#website",
+        "url": "https://wavedigital.com.br/",
+        "name": "WAVE Digital",
+        "inLanguage": "pt-BR",
+        "publisher": { "@id": "https://wavedigital.com.br/#organization" }
+      },
+      {
+        "@type": "WebPage",
+        "@id": "https://wavedigital.com.br/#webpage",
+        "url": "https://wavedigital.com.br/",
+        "name": "WAVE Digital | Agência de Soluções Digitais em Campos dos Goytacazes - RJ",
+        "inLanguage": "pt-BR",
+        "isPartOf": { "@id": "https://wavedigital.com.br/#website" },
+        "about": { "@id": "https://wavedigital.com.br/#organization" }
+      }
     ]
   }
   </script>
@@ -98,7 +119,8 @@
       <ul class="nav-links" id="navLinks">
         <li><a href="#servicos">Serviços</a></li>
         <li><a href="#diferenciais">Diferenciais</a></li>
-        <li><a href="#cases">Cases</a></li>
+        <li><a href="sobre.html">Sobre</a></li>
+        <li><a href="cases.html">Cases</a></li>
         <li><a href="#como-funciona">Como Funciona</a></li>
         <li><a href="#faq">FAQ</a></li>
         <li><a href="https://wa.me/5541991164890?text=Ol%C3%A1%2C%20quero%20conhecer%20as%20solu%C3%A7%C3%B5es%20da%20WAVE%20Digital"
@@ -386,41 +408,6 @@
     </div>
   </section>
 
-  <!-- POSICIONAMENTO -->
-  <section class="section posicionamento" id="posicionamento">
-    <div class="container">
-      <div class="posicionamento-content reveal">
-        <h2>Não é sobre ter mais ferramentas.<br><span class="gradient-text">É sobre ter o parceiro certo.</span></h2>
-        <p>A WAVE substitui o emaranhado de fornecedores por uma operação digital clara, integrada e que gera resultado.
-        </p>
-        <div class="pos-grid">
-          <div class="pos-item">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-            </svg>
-            <span>Não existe retrabalho por falta de integração entre sistemas.</span>
-          </div>
-          <div class="pos-item">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-            </svg>
-            <span>Não existe suporte que não conhece o seu negócio.</span>
-          </div>
-          <div class="pos-item">
-            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-              stroke-linecap="round" stroke-linejoin="round">
-              <line x1="5" y1="12" x2="19" y2="12" />
-            </svg>
-            <span>Não existe solução genérica entregue como se fosse feita para você.</span>
-          </div>
-        </div>
-        <p class="pos-closing"><strong>Cada projeto é construído para a sua realidade, do zero.</strong></p>
-      </div>
-    </div>
-  </section>
-
   <!-- DIFERENCIAIS -->
   <section class="section diferenciais" id="diferenciais">
     <div class="container">
@@ -540,6 +527,9 @@
         <h2>Empresas que já <span class="gradient-text">transformaram o digital</span> com a WAVE</h2>
         <p>Resultados reais de negócios do Norte Fluminense e de todo o Brasil.</p>
       </div>
+      <div class="cases-cta-link reveal" style="text-align:center; margin-bottom: 32px;">
+        <a href="cases.html" class="case-link">Ver todos os cases em detalhe →</a>
+      </div>
       <div class="cases-grid">
 
         <!-- Virtua Corretora de Seguros -->
@@ -611,39 +601,15 @@
     </div>
   </section>
 
-  <!-- PARA QUEM FAZ SENTIDO -->
-  <section class="section para-quem" id="para-quem">
+  <!-- SOBRE TEASER -->
+  <section class="section posicionamento" id="sobre-teaser">
     <div class="container">
-      <div class="para-quem-content reveal">
-        <span class="section-tag section-tag-light">Para quem é</span>
-        <h2>Para empresas de <span class="text-white">Campos dos Goytacazes</span> e região</h2>
+      <div class="posicionamento-content reveal">
+        <h2>Não é sobre ter mais ferramentas.<br><span class="gradient-text">É sobre ter o parceiro certo.</span></h2>
         <p>A WAVE nasceu para atender negócios do Norte Fluminense que querem crescer no digital sem depender de
-          fornecedores de fora que não entendem a realidade local.</p>
-        <p>Atendemos empresas de todos os tamanhos — do pequeno negócio que quer profissionalizar a presença online ao
-          médio negócio que precisa de sistema completo de gestão e automação.</p>
-        <p class="para-quem-destaque"><strong>Se você está em Campos dos Goytacazes, Macaé, São João da Barra,
-            Quissamã ou qualquer município do Norte Fluminense</strong>, a WAVE é o parceiro digital que a sua empresa
-          precisa.</p>
-      </div>
-    </div>
-  </section>
-
-  <!-- BRANDING / CONCEITO -->
-  <section class="section branding" id="branding">
-    <div class="container">
-      <div class="branding-content reveal">
-        <h2>Uma parceria que <span class="gradient-text">acompanha o ritmo</span> do seu negócio</h2>
-        <p>A WAVE não entrega projetos e some. Somos um parceiro que evolui junto com a empresa.</p>
-        <div class="branding-flow">
-          <div class="flow-item">Estratégia integrada.</div>
-          <div class="flow-dot"></div>
-          <div class="flow-item">Execução consistente.</div>
-          <div class="flow-dot"></div>
-          <div class="flow-item">Resultado mensurável.</div>
-        </div>
-        <p>Sem promessa vazia. Sem projeto entregue e esquecido. Sem solução genérica.</p>
-        <p class="branding-closing">Assim como uma onda, a WAVE traz movimento e força na direção certa.<br><strong>O
-            digital deixa de ser um custo e passa a ser o motor do crescimento da sua empresa.</strong></p>
+          fornecedores que não entendem a realidade local — substituindo o emaranhado de fornecedores por uma operação
+          digital clara, integrada e que gera resultado.</p>
+        <a href="sobre.html" class="btn btn-primary">Conhecer a história da WAVE →</a>
       </div>
     </div>
   </section>
@@ -780,6 +746,12 @@
             pages para empresas do Norte Fluminense.</p>
         </div>
         <div class="footer-links">
+          <h4>Empresa</h4>
+          <a href="sobre.html">Sobre a WAVE</a>
+          <a href="cases.html">Cases de Sucesso</a>
+          <a href="#faq">FAQ</a>
+        </div>
+        <div class="footer-links">
           <h4>Serviços</h4>
           <a href="#servicos">CRM Próprio</a>
           <a href="#servicos">Automações</a>
@@ -797,7 +769,7 @@
           <h4>Contato</h4>
           <a href="mailto:wavecrm.business@gmail.com">wavecrm.business@gmail.com</a>
           <a href="tel:+5541991164890">(41) 99116-4890</a>
-          <a href="#">Campos dos Goytacazes, RJ — Brasil</a>
+          <span>Campos dos Goytacazes, RJ — Brasil</span>
           <div class="social-links">
             <a href="https://www.instagram.com/wave.crm/" target="_blank" aria-label="Instagram">
               <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
@@ -805,14 +777,6 @@
                 <rect x="2" y="2" width="20" height="20" rx="5" ry="5" />
                 <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" />
                 <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" />
-              </svg>
-            </a>
-            <a href="#" aria-label="LinkedIn">
-              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
-                stroke-linecap="round" stroke-linejoin="round">
-                <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z" />
-                <rect x="2" y="9" width="4" height="12" />
-                <circle cx="4" cy="4" r="2" />
               </svg>
             </a>
           </div>
