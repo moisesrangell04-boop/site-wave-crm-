@@ -7,3 +7,7 @@ google-apps-script.js
 
 # Relatório de auditoria SEO (material de análise, não faz parte do site)
 seo-audit-2026-06-17/
+
+# Gerador do site, fontes, notas internas e backups (não vão para o repositório público)
+redesign-2026-11/
+seo-audit-2026-08-10/

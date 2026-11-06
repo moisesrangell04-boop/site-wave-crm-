@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://wavedigital.com.br/sitemap.xml
+Sitemap: https://wavecrm.com.br/sitemap.xml

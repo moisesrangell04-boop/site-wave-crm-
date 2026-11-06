@@ -1,0 +1,6 @@
+# WAVE: videos dos cases com o tipo certo e sem compressao
+AddType video/webm .webm
+AddType video/mp4 .mp4
+<IfModule mod_deflate.c>
+SetEnvIfNoCase Request_URI "\.(webm|mp4)$" no-gzip dont-vary
+</IfModule>

@@ -1,20 +1,23 @@
 # WAVE Digital
 
-> Agência de soluções digitais em Campos dos Goytacazes, RJ (Norte Fluminense). Desenvolve CRM próprio, automações de processos, sistemas sob medida, sites profissionais e landing pages de alta conversão para pequenas e médias empresas.
-
-WAVE Digital atende empresas de Campos dos Goytacazes, Macaé, São João da Barra e demais municípios do Norte Fluminense, além de clientes remotos em todo o Brasil. Atua como parceiro contínuo (não apenas fornecedor pontual), acompanhando implementação, uso e evolução das soluções entregues.
+> Agência de tecnologia em Campos dos Goytacazes (RJ): sites institucionais, landing pages, CRM próprio (Wave CRM), automações e integrações, sistemas sob medida e e-mail corporativo com segurança documentada. Fundador: Moisés Rangel.
 
 ## Páginas
-
-- [Site principal](https://wavedigital.com.br/): serviços, diferenciais, como funciona e FAQ
-- [Sobre a WAVE](https://wavedigital.com.br/sobre.html): posicionamento, para quem é e como a WAVE trabalha
-- [Cases de Sucesso](https://wavedigital.com.br/cases.html): cases reais de clientes (corretora de seguros, ONG e e-commerce de varejo)
-- [Termos de Uso](https://wavedigital.com.br/termos.html)
-- [Política de Privacidade](https://wavedigital.com.br/privacidade.html)
-- [Adequação à LGPD](https://wavedigital.com.br/lgpd.html)
+- [Início](https://wavecrm.com.br/)
+- [Serviços](https://wavecrm.com.br/servicos/)
+- [Sites institucionais](https://wavecrm.com.br/servicos/sites/)
+- [Landing pages](https://wavecrm.com.br/servicos/landing-pages/)
+- [CRM sob medida](https://wavecrm.com.br/servicos/crm/)
+- [Automações e integrações](https://wavecrm.com.br/servicos/automacoes-e-integracoes/)
+- [Sistemas sob medida](https://wavecrm.com.br/servicos/sistemas-sob-medida/)
+- [E-mail corporativo e infraestrutura](https://wavecrm.com.br/servicos/email-e-infraestrutura/)
+- [Cases](https://wavecrm.com.br/cases/)
+- [Virtua Corretora](https://wavecrm.com.br/cases/virtua-corretora/)
+- [Nação Basquete de Rua](https://wavecrm.com.br/cases/nacao-basquete-de-rua/)
+- [Beco Skate Shop](https://wavecrm.com.br/cases/beco-skate-shop/)
+- [Sobre](https://wavecrm.com.br/sobre/)
+- [Contato](https://wavecrm.com.br/contato/)
 
 ## Contato
-
-- WhatsApp/telefone: +55 41 99116-4890
-- E-mail: wavecrm.business@gmail.com
-- Instagram: https://www.instagram.com/wave.crm/
+- WhatsApp: (41) 99116-4890
+- E-mail: moisesrangel@wavecrm.com.br
