@@ -309,14 +309,15 @@ html:not(.js) .zap-flut{display:none}
 @media (max-width:900px){
   .burg{display:block}
   .navcta{display:none}
-  #menu{position:fixed;inset:76px 0 0 0;background:var(--paper);padding:1rem var(--g) 3rem;overflow-y:auto;visibility:hidden;opacity:0;transition:opacity .25s,visibility .25s;margin:0}
-  .menu-on #menu{visibility:visible;opacity:1}
+  /* menu fechado não recebe toque: antes a lista de serviços (.mega) ficava visível por cima da página, transparente, e roubava os toques */
+  #menu{position:fixed;inset:76px 0 0 0;background:var(--paper);padding:1rem var(--g) 3rem;overflow-y:auto;visibility:hidden;opacity:0;pointer-events:none;transition:opacity .25s,visibility .25s;margin:0}
+  .menu-on #menu{visibility:visible;opacity:1;pointer-events:auto}
   .menu-on{overflow:hidden}
   #menu>ul{flex-direction:column;gap:0}
   #menu>ul>li{border-bottom:1px solid var(--line)}
   #menu>ul>li>a{font-size:1.4rem;font-stretch:110%;font-weight:640;padding:1rem 0;color:var(--navy)}
   #menu>ul>li>a:hover,#menu>ul>li>a[aria-current]{background:transparent;color:var(--signal)}
-  .mega{position:static;opacity:1;visibility:visible;transform:none;box-shadow:none;border:0;padding:0 0 1rem;width:auto}
+  .mega{position:static;opacity:1;visibility:inherit;transform:none;box-shadow:none;border:0;padding:0 0 1rem;width:auto}
   .mega ul{grid-template-columns:1fr}
   .mega a{padding:.55rem 0}.mega span{display:none}
   .hero-g,.case-dest,.crm-g,.fund,.cta-g,.ph-case,.contato-g,.form-meio,.dupla-t,.sh{grid-template-columns:1fr}
